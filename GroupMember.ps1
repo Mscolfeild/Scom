@@ -1,7 +1,7 @@
 ﻿
 <#
 
-    This script lists group members
+    This script lists group members and write file.
     
     Change : GroupName and Path 
 #>
