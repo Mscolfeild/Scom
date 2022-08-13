@@ -1,4 +1,3 @@
-﻿
 <#
 
         Lists the groups that the server is a member of.
@@ -8,13 +7,7 @@
 
 $Group = @(Get-SCOMGroup)
 
-
 $Server = "Enter Server Name"
-
-
-
-
-
 
 for($m=0;$m -lt $Group.Count; $m++)
 {
@@ -32,7 +25,7 @@ for($m=0;$m -lt $Group.Count; $m++)
 
     
    
-     }
+        }
 
 
 }
