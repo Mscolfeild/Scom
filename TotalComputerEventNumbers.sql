@@ -1,6 +1,6 @@
 -- DB : OperationsManagerDW
 --It collects and lists the number of events that occurred between certain dates by server.
---Change EventNumber
+--Change EventDisplayNumber
 SELECT evc.ComputerName,count(evc.ComputerName) as Total FROM Event.vEvent ev
 inner join EventLoggingComputer evc on ev.LoggingComputerRowId = evc.EventLoggingComputerRowId
 
