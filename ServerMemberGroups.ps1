@@ -7,7 +7,7 @@
 
 $Group = @(Get-SCOMGroup)
 
-$Server = "Enter Server Name"
+$Server = "Enter Server Full Name"
 
 for($m=0;$m -lt $Group.Count; $m++)
 {
